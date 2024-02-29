@@ -72,4 +72,64 @@ export const quotes = [
     quote:
       'Sometimes we’re tested not to show our weaknesses, but to discover our strengths.',
   },
+  {
+    quote: 'Life is 10% what happens to us and 90% how we react to it.',
+  },
+  {
+    quote: 'There is no way to happiness — happiness is the way.',
+  },
+  {
+    quote: 'Your future is created by what you do today, not tomorrow.',
+  },
+  {
+    quote:
+      'The only limit to our realization of tomorrow will be our doubts of today.',
+  },
+  {
+    quote: 'To be the best, you must be able to handle the worst.',
+  },
+  {
+    quote:
+      'What you get by achieving your goals is not as important as what you become by achieving your goals.',
+  },
+  {
+    quote: 'If you want to lift yourself up, lift up someone else.',
+  },
+  {
+    quote: 'You are never too old to set another goal or to dream a new dream.',
+  },
+  {
+    quote: 'What we think, we become.',
+  },
+  {
+    quote:
+      'All our dreams can come true, if we have the courage to pursue them.',
+  },
+  {
+    quote: 'It does not matter how slowly you go as long as you do not stop.',
+  },
+  {
+    quote: 'Everything you’ve ever wanted is on the other side of fear.',
+  },
+  {
+    quote:
+      'Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.',
+  },
+  {
+    quote: 'The only way to do great work is to love what you do.',
+  },
+  {
+    quote:
+      'Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.',
+  },
+  {
+    quote: 'Take the risk or lose the chance.',
+  },
+  {
+    quote: 'Do what you can with all you have, wherever you are.',
+  },
+  {
+    quote:
+      'You don’t need to see the whole staircase, just take the first step.',
+  },
 ];
