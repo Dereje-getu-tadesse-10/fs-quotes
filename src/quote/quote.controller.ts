@@ -1,7 +1,7 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
 import { QuoteService } from './quote.service';
 
-@Controller('quote')
+@Controller('q')
 export class QuoteController {
   constructor(private readonly quoteService: QuoteService) {}
 
@@ -13,5 +13,10 @@ export class QuoteController {
   @Get('all')
   getQuotes() {
     return this.quoteService.getQuotes();
+  }
+
+  @Get('/:id')
+  getQuoteById(@Param('id', ParseIntPipe) id: number) {
+    return this.quoteService.getQuoteById(id);
   }
 }

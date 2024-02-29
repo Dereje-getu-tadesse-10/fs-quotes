@@ -10,6 +10,7 @@ export class QuoteService {
     return quotes;
   }
 
-  // TODO: add method to get quote by id
-  getQuoteById(id: number) {}
+  getQuoteById(id: number) {
+    return quotes[id];
+  }
 }
